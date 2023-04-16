@@ -1,2 +1,2 @@
-FROM nginx
-COPY /src /usr/share/nginx/html
+FROM nginx:1.24
+COPY src /usr/share/nginx/html

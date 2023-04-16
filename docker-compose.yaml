@@ -1,9 +1,0 @@
-version: '3'
-services:
-  web:
-    image: bad_at_math_img
-    build: .
-    container_name: bad_at_math_container
-    restart: always
-    ports:
-      - "4242:80"

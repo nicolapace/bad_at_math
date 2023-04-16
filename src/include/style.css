@@ -25,17 +25,18 @@ body {
   top: 19px;
   height: calc(100% - 38px);
   margin: auto;
+  width: 72%;
   padding: 0;
-  box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.06), 0 6px 15px 0 rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.06), 0 6px 15px 0 rgba(51, 255, 10, 0.95);
 }
 
 .app-one {
-  background-color: #f7f7f7;
+  background-color: #0b0b0b;
   height: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.06), 0 6px 15px 0 rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.06), 0 6px 15px 0 rgba(8, 255, 13, 0.95);
 }
 
 .side {
@@ -74,7 +75,7 @@ body {
   margin: 0;
   height: 60px;
   width: 100%;
-  background-color: #eee;
+  background-color: #143330;
   z-index: 1000;
 }
 
@@ -103,7 +104,7 @@ body {
   text-align: left;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: #000;
+  color: #ffffff;
   display: block;
 }
 .heading-online {
@@ -146,7 +147,7 @@ body {
   height: 100%;
   width: 100%;
   padding: 10px !important;
-  background-color: #fbfbfb;
+  background-color: #0c0c0c;
 }
 
 
@@ -163,23 +164,23 @@ body {
 .sideBar {
   padding: 0 !important;
   margin: 0 !important;
-  background-color: #fff;
+  background-color: #000000;
   overflow-y: auto;
-  border: 1px solid #f7f7f7;
+  border: 1px solid #575757;
   height: calc(100% - 120px);
 }
 
 .sideBar-body {
   position: relative;
   padding: 10px !important;
-  border-bottom: 1px solid #f7f7f7;
+  border-bottom: 1px solid #525252;
   height: 72px;
   margin: 0 !important;
   cursor: pointer;
 }
 
 .sideBar-body:hover {
-  background-color: #f2f2f2;
+  background-color: #3f3f3f;
 }
 
 .sideBar-avatar {
@@ -212,18 +213,26 @@ body {
   text-align: left;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: #000;
+  color: #ffffff;
 }
 
 .sideBar-time {
   padding: 10px !important;
 }
 
+#searchText{
+  background-color: black;
+}
+
+#comment{
+  background-color: rgb(56, 56, 56);
+}
+
 .time-meta {
   text-align: right;
   font-size: 12px;
   padding: 1% !important;
-  color: rgba(0, 0, 0, .4);
+  color: rgb(255 255 255 / 40%);
   vertical-align: baseline;
 }
 
@@ -314,10 +323,8 @@ body {
 .message {
   padding: 0 !important;
   margin: 0 !important;
-  background: url("w.jpg") no-repeat fixed center;
-  background-size: cover;
   overflow-y: auto;
-  border: 1px solid #f7f7f7;
+  border: 1px solid #070707;
   height: calc(100% - 120px);
 }
 .message-previous {
@@ -377,8 +384,10 @@ body {
 .receiver {
   width: auto !important;
   padding: 4px 10px 7px !important;
+  margin: 2px;
   border-radius: 10px 10px 10px 0;
-  background: #ffffff;
+  background: #004c34;
+  color: white;
   font-size: 12px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
   word-wrap: break-word;
@@ -388,7 +397,8 @@ body {
 .sender {
   float: right;
   width: auto !important;
-  background: #dcf8c6;
+  background: #515151;
+  color: white;
   border-radius: 10px 10px 0 10px;
   padding: 4px 10px 7px !important;
   font-size: 12px;
@@ -403,7 +413,7 @@ body {
 .reply {
   height: 60px;
   width: 100%;
-  background-color: #f5f1ee;
+  background-color: #0b0b0b;
   padding: 10px 5px 10px 5px !important;
   margin: 0 !important;
   z-index: 1000;
@@ -470,10 +480,11 @@ body {
   .app {
     top: 0;
     height: 100%;
+    width: 100%;
   }
   .heading {
     height: 70px;
-    background-color: #009688;
+    background-color: #143330;
   }
   .fa-2x {
     font-size: 2.3em !important;
@@ -502,6 +513,10 @@ body {
   }
   .sideBar {
     height: calc(100% - 130px);
+    width: 0;
+  }
+  .side{
+    display: none;
   }
   .sideBar-body {
     height: 80px;
@@ -543,9 +558,8 @@ body {
     padding: 0 !important;
     margin: 0 !important;
     height: 100%;
-    /*width: 100%;*/
+    width: 100%;
     border-left: 1px solid rgba(0, 0, 0, .08);
-    /*overflow-y: auto;*/
   }
   .message {
     height: calc(100% - 140px);
