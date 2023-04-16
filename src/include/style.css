@@ -96,7 +96,38 @@ body {
   cursor: pointer;
 }
 
+.my-name {
+  font-weight: 700;
+  font-size: 100%;
+  padding: 15px;
+  color: #ffffff;
+}
+.my-name:hoover{
+  font-weight: 700;
+  font-size: 100%;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.status-heading-name-meta {
+  padding: 5px;
+}
+.status-heading-name-meta:hoover{
+  padding: 5px;
+}
+
 .heading-name-meta {
+  font-weight: 700;
+  font-size: 100%;
+  padding: 5px;
+  padding-bottom: 0;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #ffffff;
+  display: block;
+}
+.heading-name-meta:hoover{
   font-weight: 700;
   font-size: 100%;
   padding: 5px;
@@ -111,7 +142,7 @@ body {
   display: none;
   padding: 0 5px;
   font-size: 12px;
-  color: #93918f;
+  color: #d7d6d6;
 }
 .heading-compose {
   padding: 0;
@@ -168,6 +199,14 @@ body {
   overflow-y: auto;
   border: 1px solid #575757;
   height: calc(100% - 120px);
+}
+
+.cyberchef{
+  color: #7fff00;
+}
+
+.cyberchef:hover{
+  color: #89bb56;
 }
 
 .sideBar-body {
@@ -476,7 +515,7 @@ body {
   box-shadow: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .app {
     top: 0;
     height: 100%;
@@ -491,6 +530,7 @@ body {
   }
   .heading-avatar {
     padding: 0 !important;
+    width: 15% !important;
   }
   .heading-avatar-icon img {
     height: 50px;
