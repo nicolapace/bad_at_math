@@ -85,6 +85,10 @@ body {
 
 }
 
+.heading-avatar-icon{
+  width: fit-content;
+}
+
 .heading-avatar-icon img {
   border-radius: 50%;
   height: 40px;
@@ -101,12 +105,14 @@ body {
   font-size: 100%;
   padding: 15px;
   color: #ffffff;
+  cursor: pointer;
 }
 .my-name:hoover{
   font-weight: 700;
   font-size: 100%;
   padding: 15px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .status-heading-name-meta {
@@ -377,6 +383,7 @@ body {
   text-align: center;
   padding: 10px !important;
   cursor: pointer;
+  height: min-content;
 }
 
 .previous a {
@@ -393,13 +400,15 @@ body {
 
 .message-main-receiver {
   /*padding: 10px 20px;*/
-  max-width: 60%;
+  max-width: 70%;
+  height: min-content;
 }
 
 .message-main-sender {
   padding: 3px 20px !important;
-  margin-left: 40% !important;
-  max-width: 60%;
+  margin-left: 31% !important;
+  max-width: 70%;
+  height: min-content;
 }
 
 .message-text {
@@ -409,6 +418,7 @@ body {
   font-weight: 200;
   font-size: 14px;
   padding-bottom: 0 !important;
+  height: min-content;
 }
 
 .message-time {
@@ -431,6 +441,7 @@ body {
   text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
   word-wrap: break-word;
   display: inline-block;
+  height: min-content;
 }
 
 .sender {
@@ -444,6 +455,7 @@ body {
   text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
   display: inline-block;
   word-wrap: break-word;
+  height: max-content;
 }
 
 
@@ -515,7 +527,7 @@ body {
   box-shadow: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .app {
     top: 0;
     height: 100%;

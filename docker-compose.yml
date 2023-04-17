@@ -1,9 +1,8 @@
 version: "3"
+
 services:
-  web:
-    image: bad_at_math_img
-    build: .
-    container_name: bad_at_math_container
+  bad_at_math:
+    build: ./bad_at_math
     restart: always
     ports:
       - "13131:80"
