@@ -1,7 +1,7 @@
 ## Bad at Math
 Diffie-Hellman CTF Challenge for ITASEC CTF2023 at Bari.
 
-CTF is Live here: https://nicolapace.github.io/bad_at_math/index.html
+CTF is Live here: https://nicolapace.github.io/bad_at_math
 
 ## Build Instructions:
 
